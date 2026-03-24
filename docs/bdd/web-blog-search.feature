@@ -18,8 +18,8 @@ Funcionalidade: Busca de artigos no Blog do Agi
         Quando tenta realizar uma busca sem preencher o campo
         Então o sistema deve manter o comportamento padrão da busca sem quebrar a navegação
 
-  CT004 - Validar busca com caracteres especiais
+  CT004 - Validar busca com caracteres númericos
 
         Dado que o usuário acessa o Blog do Agi
-        Quando realiza uma busca com caracteres especiais
+        Quando realiza uma busca com caracteres númericos
         Então o sistema deve tratar a pesquisa corretamente sem apresentar erro
