@@ -22,3 +22,17 @@ Este repositório contém a solução de um teste técnico de QA com três parte
 ### Instalar dependências
 ```bash
 npm install
+
+### Rodar testes Web
+```bash
+npm run cy:web
+
+### Rodar testes de API
+```bash
+npm run cy:api
+
+### Estrutura
+cypress/e2e/web → testes web
+cypress/e2e/api → testes de API
+docs/bdd → cenários em BDD
+jmeter → testes de performance# Teste Técnico QA
