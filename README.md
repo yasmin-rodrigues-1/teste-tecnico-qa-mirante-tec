@@ -1,43 +1,24 @@
-# Teste Técnico QA - Mirante
+# Teste Técnico QA
 
-## Objetivo
-Este repositório contém a solução do teste técnico de QA, contemplando três frentes de validação:
+## Sobre o projeto
+Este repositório contém a solução de um teste técnico de QA com três partes:
 
-- Automação Web
-- Automação de API
-- Testes de Performance
+- Testes Web (Cypress)
+- Testes de API (Cypress)
+- Testes de Performance (JMeter)
 
-## Tecnologias utilizadas
+---
+
+## Tecnologias usadas
 - Cypress
 - JavaScript
 - Apache JMeter
-- Git / GitHub
+- Node.js
 
-## Estrutura do projeto
+---
 
-```text
-cypress/
-  e2e/
-    web/
-      blog-search.cy.js
-      README.md
-    api/
-      dog-api.cy.js
-      README.md
+## Como rodar o projeto
 
-docs/
-  bdd/
-    web-blog-search.feature
-    api-dog-api.feature
-
-jmeter/
-  carga/
-    teste-carga.jmx
-  pico/
-    teste-pico.jmx
-  evidencias/
-    carga-summary-report.png
-    carga-thread-group.png
-    pico-summary-report.png
-    pico-thread-group.png
-  README.md
+### Instalar dependências
+```bash
+npm install
