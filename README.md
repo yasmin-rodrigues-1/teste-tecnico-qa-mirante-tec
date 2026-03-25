@@ -17,8 +17,18 @@ Este repositório contém a solução de um teste técnico de QA com três parte
 
 ---
 
+## Diferenciais
+
+- Estrutura organizada por tipo de teste
+- Documentação em BDD
+- Cobertura de cenários positivos e negativos
+- Testes de performance com análise de resultados
+
+---
+
 ## Como rodar o projeto
 
 ### Instalar dependências
 ```bash
 npm install
+
