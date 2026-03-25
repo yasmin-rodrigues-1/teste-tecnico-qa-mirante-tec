@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:web": "cypress run --spec cypress/e2e/web/blog-search.cy.js",
+    "cy:api": "cypress run --spec cypress/e2e/api/dog-api.cy.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "cypress": "^15.12.0"
   }
