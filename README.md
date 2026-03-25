@@ -29,13 +29,10 @@ jmeter → testes de performance# Teste Técnico QA
 ```bash
 
 ### Instalar dependências
-```bash
 npm install
 
 ### Rodar testes Web
-```bash
 npm run cy:web
 
 ### Rodar testes de API
-```bash
 npm run cy:api
